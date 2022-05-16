@@ -31,20 +31,20 @@ class TokenJoiner:
         if "captcha_key" not in joinreq.json():
             if "message" in joinreq.json() and joinreq["message"] == "You need to verify your account in order to perform this action.":
                 print(f"{self.client.headers['Authorization']} - Locked Token")
-                return "NotJoined", joinreq.json()
+                return "FailedJoin", joinreq.json()
             print(
                 f"{Fore.GREEN}{self.client.headers['Authorization']} Successfully Joined discord.gg/{self.invitecode} {Style.RESET_ALL}")
-            return "Joined", joinreq.json()
+            return "SuccessJoin", joinreq.json()
         captcha_rqtoken = joinreq.json()["captcha_rqtoken"]
         joinreq=self.client.post(f"https://canary.discord.com/api/v10/invites/{self.invitecode}", json={"captcha_key": self.solvecaptcha(), "captcha_rqtoken": captcha_rqtoken})
         if joinreq.status_code == 200:
             print(
                 f"{Fore.GREEN}{self.client.headers['Authorization']} Successfully Joined discord.gg/{self.invitecode} {Style.RESET_ALL}")
-            return "Joined", joinreq.json()
+            return "SuccessJoin", joinreq.json()
         else:
             print(
                 f"{Fore.RED}{self.client.headers['Authorization']} Failed To Join discord.gg/{self.invitecode} {Style.RESET_ALL}")
-            return "NotJoined", joinreq.json()
+            return "FailedJoin", joinreq.json()
         
     def solvecaptcha(self):
         capapi = config["API"]
