@@ -21,7 +21,7 @@
 * Username Changer
 * Server Scraper
 * Bio Changer
-* LEAVE AN RECOMMENDATIONS BY CREATING A PULL REQUEST
+* LEAVE ANY RECOMMENDATIONS BY CREATING A PULL REQUEST
 ![](./Picture/clipsjoiner.png)
 # Common Issues
 *  Error Code: "'Response' object is not subscriptable" This is either due to your tokens being invalid/locked or your Proxies being dead. This is self explanatory and is not a proper issue with my code, but with the resources you are providing to the tool. Please come to me with an actual issue that deems the joiner of **not** working condition
