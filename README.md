@@ -1,6 +1,6 @@
 # How to Use
 1. Input your tokens
-2. Input your proxies
+2. Input your proxies (HTTP Proxies ONLY! BUY SOME CHEAP ONES FROM HERE: https://www.webshare.io/?referral_code=vfoze0j60n05)
 3. configure config.json. leave the apikey blank if you're not looking to solve
 4. Install all packages via "pip install -r requirements.txt"
 5. Run the main.py file via "python main.py"
