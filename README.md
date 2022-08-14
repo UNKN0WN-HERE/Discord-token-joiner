@@ -7,6 +7,11 @@
 6. Input your server invite code, this is what is after discord.gg/
 7. Input The amount of threads (The higher the faster)
 8. Then you're done, your tokens should Start Joining the dedicated server
+# Donations
+* If you would like to help me and receive more projects like this, feel free to donate to my bitcoin, ethereum or litecoin address. Any amount helps :)
+* Bitcoin: `bc1q5mmftuaetp8u7fmd7hsaap7vefyhjxjwm28d3v`
+* Ethereum: `0xfC4493E0a582aCEEa23F1f4cBCee170BB4342012`
+* Litecoin: `LVK4Z9VX1hDDPoQToKyr2dbLZmU1jqVc1D`
 # Contacts
 * Discord - Not Sharing on github, can be found in the discord
 * Telegram - @lilclip
