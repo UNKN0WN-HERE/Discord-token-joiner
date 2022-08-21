@@ -33,3 +33,9 @@
 
 # Please Star or fork to help me out and receive regular updates
 🌹
+# Contact | Custom Work
+* I do paid work, contact me below to request a custom tool/bot
+* Discord - clipssender#2920
+* Telegram - @lilclip
+* Server - https://discord.gg/clipssender
+* If you come across any problems, just create an issue with a screenshot and I'll try to get it fixed ASAP
